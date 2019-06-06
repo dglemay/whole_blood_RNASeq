@@ -4,10 +4,12 @@ R workflow to understand contributors to variance in a human whole blood transcr
 
 Please cite:
 
-Lemay DG, et al. “Temporal changes in postprandial blood transcriptomes reveal subject-specific pattern of expression of innate immunity genes after a high fat meal” 
+Lemay DG, et al. (2019) “Temporal changes in postprandial blood transcriptomes reveal subject-specific pattern of expression of innate immunity genes after a high fat meal” 
 
-Data:
+Raw Data:
+The raw data set for this project is found in NCBI’s Gene Expression Omnibus database (https://www.ncbi.nlm.nih.gov/geo/) with study accession number GSE127530 and series record GSE127530.
 
+Processed Data:
 fixed_combinedCounts.txt : raw counts file with non-gene features removed (sed '/^N_unmapped/d' | sed '/^N_multimapping/d' | sed '/N_noFeature/d' | sed '/N_ambiguous/d')
 
 phenoData.txt: meta-data file (blinded to treatment arm)
