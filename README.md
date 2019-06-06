@@ -24,3 +24,8 @@ phenoData_unblinded.txt : meta-data file (unblinded to treatment arm)
 get_DEgenes_july2017_clean.R: R script to obtain differentially regulated genes in whole blood transcriptomes, accounting for multiple drivers of variation
 
 partition_variances_feb2019.R : R script to determine drivers of variation in the whole blood transcriptomes
+
+
+### License information
+
+This software is a work of the United States Department of Agriculture, Agricultural Research Service and is released under a Creative Commons CC0 public domain attribution.
